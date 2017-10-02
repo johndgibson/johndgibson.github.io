@@ -15,9 +15,9 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: dotX
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+title: John D. Gibson - Poetry
+description: "The home for the Poetry of John D. Gibson, poet and educator."
+keywords: "John D. Gibson, Poetry, England, Spain, America, Indiana, Evansville, USI, University of Southern Indiana, Kirkham, Hull, John, Gibson, Lancashire, Belchamp Walter, Sudbury"
 
 # Site settings
 url: http://www.johndgibson.com
