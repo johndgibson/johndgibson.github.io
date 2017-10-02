@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About John
-subtitle: It's Free!
 permalink: /about/
 ---
 
