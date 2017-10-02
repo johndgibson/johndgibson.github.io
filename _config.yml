@@ -22,3 +22,6 @@ keywords: "Jekyll, theme, free, download, SEO, blog, web"
 # Site settings
 url: http://www.johndgibson.com
 baseurl: ""
+
+# Additional Files To Exclude
+exclude: ["README.md"]
