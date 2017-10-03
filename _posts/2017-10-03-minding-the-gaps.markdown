@@ -13,4 +13,4 @@ Buy it here:
 | Site |  Discount |
 |------|-----------|
 | [Amazon](https://www.amazon.com/Minding-Gaps-Poems-England-Americas/dp/1545570000/) | |
-| [CreateSpace](https://www.createspace.com/7117437) | D4MKC7RR ($9 off) <small>comes to ~$10 when you include shipping<small> |
+| [CreateSpace](https://www.createspace.com/7117437) | D4MKC7RR <small>($10 after shipping)<small> |
