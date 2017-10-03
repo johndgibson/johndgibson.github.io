@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Minding the Gaps"
 subtitle: "Poems of England, Spain and the Americas"
 permalink:  "minding-the-gaps"
