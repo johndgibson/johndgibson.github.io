@@ -1,0 +1,92 @@
+{
+    "chapbooks": [{
+        "title": "Starting From Here",
+        "yearPublished": "1995",
+        "isbn": {
+            "10": "1899604030",
+            "13": "9781899604036",
+        },
+        "poems": [
+            "Starting from Here",
+            "Sketch for L.S. Lowry",
+            "A Babble of Green Fields",
+            "Plane Spotting",
+            "Joint Inheritance",
+            {
+                "title": "Map Reading",
+                "subpoems": [
+                    "dreamscape",
+                    "birthscape",
+                    "wetscape",
+                    "gravescape",
+                    "hopescape",
+                ]
+            }
+        ],
+        "links": {
+            "amazon": "https://www.amazon.com/Starting-Here-John-Gibson/dp/1899604030"
+        },
+    }, {
+        "title": "Folk Dancing",
+        "yearPublished": "1996",
+        "isbn": {
+            "10": "1899604081",
+            "13": "9781899604081",
+        },
+        "poems": [
+            "Amateur Theatricals: The Producer Contemplates the Marriageable Ophelia",
+            "Diego Cuchulain at Matalascañas",
+            {
+                "title": "Museo del Prado: Sala XLV: Reagan is Elected for a Second Term",
+                "subpoems": [
+                    "El Jardín de Las Deleitas",
+                    "El Triunfo de la Muerte",
+                ]
+            },
+            "Orpheus Meets Lot's Wife",
+            "Martha as Man",
+            "Jack and Margery Daw",
+            "Bangers and Mash",
+            "Jours Impairs",
+            "Transformational Grammar",
+            "After Mothers' Day",
+            "Landfall",
+            "Missing England",
+            "Summer Solstice",
+            "Down the Lane",
+            "North Station, Boston",
+            "Summer Airs, 1940",
+            "Mega-Bugs at the Yorkshire Museum",
+            "On the Coast of Massachusetts",
+            "In Train",
+            {
+                "title": "Arendt Exemplified",
+                "subpoems": [
+                    "One: Animal Laborans",
+                    "Two: Homo Faber",
+                    "Three: Zoon Politikon",
+                    "Four: Vita Contemplativa",
+                ]
+            },
+            "Folk Dancing",
+            "\"All Work and No Play...\"",
+            "The Dialect of the Tribe",
+            "Absentees",
+            {
+                "title": "Landscape for Two Brothers",
+                "subpoems": [
+                    "One: House for Rent",
+                    "Two: The Whirligig Begins",
+                    "Three: Enchantment of the Younger Brother",
+                    "Four: The Elder Brother's Detour",
+                ]
+            },
+            "Incomprehension",
+            "The Good Ship Certainty",
+            "June Funeral: Belchamp St. Paul",
+        ],
+        "links": {
+            "amazon": "https://www.amazon.co.uk/Folk-Dancing-John-GIBSON/dp/B00E1GIAG0"
+        },
+    }],
+}
