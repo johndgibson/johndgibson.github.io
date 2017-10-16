@@ -1,6 +1,7 @@
 {
     "chapbooks": [{
         "title": "Starting From Here",
+        "slug": "starting-from-here",
         "yearPublished": "1995",
         "isbn": {
             "10": "1899604030",

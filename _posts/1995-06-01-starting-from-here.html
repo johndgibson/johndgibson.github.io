@@ -1,0 +1,19 @@
+---
+layout: page
+title:  "Starting From Here"
+subtitle: "Illustrations by Diane Griffiths"
+permalink:  "starting-from-here"
+categories: poetry books chapbook
+---
+
+
+{% for chapbook in site.data.poetry.chapbooks %}
+    {% if chapbook.title == "Starting From Here" %}
+        <ol>
+        {% for poem in chapbooks.poems %}
+            <li>{{poem}}</li>
+        {% endfor %}
+        </ol>
+    {% endif %}
+{% endfor %}
+

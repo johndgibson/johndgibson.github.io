@@ -5,8 +5,8 @@ permalink:  "publications"
 categories: poetry books chapbooks
 ---
 
-h2. Chapbooks
+## Chapbooks
 
 {% for chapbook in site.data.poetry.chapbooks %}
-- {{chapbook.title}}
+- [{{chapbook.title}}]()
 {% endfor %}
