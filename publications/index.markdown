@@ -8,5 +8,5 @@ categories: poetry books chapbooks
 ## Chapbooks
 
 {% for chapbook in site.data.poetry.chapbooks %}
-- [{{chapbook.title}}]()
+- [{{chapbook.title}}](/{{chapbook.slug}})
 {% endfor %}

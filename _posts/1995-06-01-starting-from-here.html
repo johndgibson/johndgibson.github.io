@@ -10,8 +10,12 @@ categories: poetry books chapbook
 {% for chapbook in site.data.poetry.chapbooks %}
     {% if chapbook.title == "Starting From Here" %}
         <ol>
-        {% for poem in chapbooks.poems %}
-            <li>{{poem}}</li>
+        {% for poem in chapbook.poems %}
+            {% if poem.title %}
+                <li>{{poem.title}}</li>
+            {% else %}
+                <li>{{poem}}</li>
+            {% endif %}
         {% endfor %}
         </ol>
     {% endif %}
