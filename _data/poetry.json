@@ -29,6 +29,7 @@
         },
     }, {
         "title": "Folk Dancing",
+        "slug": "folk-dancing",
         "yearPublished": "1996",
         "isbn": {
             "10": "1899604081",
