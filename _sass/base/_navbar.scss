@@ -224,3 +224,20 @@ body.navigation-is-open {
     background-color: $white-color;
   }
 }
+
+.pagination {
+    text-align: center;
+    padding: $base-spacing 0;
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 45%;
+        margin: 0 .25em;
+        padding: 10px;
+        border: 1px solid $primary-color;
+        border-radius: .5rem;
+        text-align: center;
+    }
+}
