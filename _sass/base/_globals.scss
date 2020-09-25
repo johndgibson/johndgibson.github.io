@@ -32,6 +32,15 @@ body {
   };
 }
 
+aside {
+    background-color: #fcfcfc;
+    border: 1px solid $lighter-gray-color;
+    border-radius: 1em;
+    font-style: italic;
+    margin: 0 $small-spacing;
+    padding: $small-spacing;
+}
+
 %clearfix,
 .clearfix {
   @include clearfix;
