@@ -1,0 +1,5 @@
+<p>{{ include.post.content | replace: "</h2>", ": " | replace: "<br>", " / " | replace: "</li>", " / " | strip_html | replace: "&nbsp;", " " | truncatewords: 56 }}
+    <a href="{{ include.post.url | prepend: site.baseurl }}"
+       title="Permalink to: {{ include.post.title }}"
+       class="read-more">Read more</a>
+</p>

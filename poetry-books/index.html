@@ -22,9 +22,8 @@ title: Poetry Books
             </h1>
         </header>
 
-        <p>{{ post.content | replace: "</li>", " / " | strip_html | replace: "&nbsp;", " " | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}"
-                                                                  title="Permalink to: {{ post.title }}"
-                                                                  class="read-more">Read more</a></p>
+        {% include post.html post=post %}
+
         <footer>
             <ul class="list-inline italics-style clearfix">
                 {% for category in post.categories %}
