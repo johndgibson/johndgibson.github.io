@@ -6,7 +6,7 @@
   top: 20px;
   height: 54px;
   width: 54px;
-  background-color: $white-color;
+  background-color: var(--white-color);
   border-radius: 50%;
 
   /* image replacement */
@@ -22,7 +22,7 @@
     @include center; // mixin inside partials > _mixins.scss
     width: 22px;
     height: 2px;
-    background-color: $primary-color;
+    background-color: var(--primary-color);
 
     &::before, &:after {
       /* upper and lower lines of the menu icon */
@@ -69,7 +69,7 @@
   }
 
   circle {
-    stroke: $primary-color;
+    stroke: var(--primary-color);
   }
 
   .navigation-is-open & {
@@ -111,7 +111,7 @@
   width: 100%;
   text-align: center;
   visibility: hidden;
-  background-color: tint($black-color, 5%);
+  background-color: var(--navbar-color);
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
@@ -170,16 +170,16 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      color: rgba($white-color, .5);
+      color: rgba(var(--white-color), .5);
       font-weight: $font-weight-light;
       display: inline-block;
 
       &.selected {
-        color: $white-color;
+        color: var(--white-color);
       }
 
       .no-touch &:hover {
-        color: $white-color;
+        color: var(--white-color);
       }
     }
   }
@@ -221,7 +221,7 @@ body:not(.navigation-is-open) {
 
 body.navigation-is-open {
   .menu-burger {
-    background-color: $white-color;
+    background-color: var(--white-color);
   }
 }
 

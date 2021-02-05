@@ -31,8 +31,19 @@ $base-z-index: 0;
 // Colors
 //
 $primary-color: #334f9c;
+$primary-color-darkmode: #202020;
+
+$primary-color-darken: darken($primary-color, 6%);
+$primary-color-darken-darkmode: lighten($primary-color-darkmode, 6%);
+
 $white-color: #fff;
 $black-color: #111;
+$black-color-tint: tint($black-color, 5%);
+
+$white-color-darkmode: $black-color;
+$black-color-darkmode: $white-color;
+$black-color-tint-darkmode: tint($black-color-darkmode, 5%);
+
 $blue-color: #477dca;
 $dark-gray-color: lighten($black-color, 10%);
 $medium-gray-color: lighten($dark-gray-color, 20%);
@@ -52,6 +63,11 @@ $base-border: 1px solid $base-border-color;
 // Background Colors
 //
 $base-background-color: $white-color;
+$base-background-color-darkmode: $white-color-darkmode;
+
+$base-background-color-shade: shade($base-background-color, 5%);
+$base-background-color-shade-darkmode: shade($base-background-color, 5%);
+
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms

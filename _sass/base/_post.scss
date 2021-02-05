@@ -25,7 +25,7 @@
     &:hover,
     &:focus,
     &:active {
-      color: $primary-color;
+      color: var(--primary-color);
 
       &:after {
         opacity: 1;

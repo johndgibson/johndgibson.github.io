@@ -1,10 +1,10 @@
 #{$all-buttons},
 .button {
   appearance: none;
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   border: 0;
   border-radius: $base-border-radius;
-  color: $white-color;
+  color: var(--white-color);
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
@@ -22,7 +22,7 @@
   &:hover,
   &:focus {
     background-color: shade($primary-color, 20%);
-    color: $white-color;
+    color: var(--white-color);
   }
 
   &:disabled {
@@ -30,7 +30,7 @@
     opacity: 0.5;
 
     &:hover {
-      background-color: $primary-color;
+      background-color: var(--primary-color);
     }
   }
 
@@ -41,7 +41,7 @@
     &:hover,
     &:focus,
     &:active {
-      background-color: rgba($white-color, .1);
+      background-color: rgba(var(--white-color), .1);
     }
   }
 }

@@ -1,0 +1,59 @@
+:root {
+    // Colors
+    //
+    --primary-color: #{$primary-color};
+    --primary-color-darken: #{$primary-color-darken};
+    --white-color: #{$white-color};
+    --black-color: #{$black-color};
+    --navbar-color: #{$primary-color-darken};
+    //$blue-color: #477dca;
+    //$dark-gray-color: lighten($black-color, 10%);
+    //$medium-gray-color: lighten($dark-gray-color, 20%);
+    //$light-gray-color: lighten($medium-gray-color, 20%);
+    //$lighter-gray-color: lighten($light-gray-color, 20%);
+    //
+    //// Font Colors
+    ////
+    //$base-font-color: $medium-gray-color;
+    //$action-color: $primary-color;
+    //
+    //// Border
+    ////
+    //$base-border-color: lighten($lighter-gray-color, 5%);
+    //$base-border: 1px solid $base-border-color;
+    //
+    //// Background Colors
+    ////
+    --base-background-color: #{$base-background-color};
+    --base-background-color-shade: #{$base-background-color-shade};
+    //$secondary-background-color: tint($base-border-color, 75%);
+
+    @media (prefers-color-scheme: dark) {
+        --primary-color: #{$primary-color-darkmode};
+        --primary-color-darken: #{$primary-color-darken-darkmode};
+        --white-color: #{$white-color-darkmode};
+        --black-color: #{$black-color-darkmode};
+        --navbar-color: #{$primary-color-darken-darkmode};
+        //$blue-color: #477dca;
+        //$dark-gray-color: lighten($black-color, 10%);
+        //$medium-gray-color: lighten($dark-gray-color, 20%);
+        //$light-gray-color: lighten($medium-gray-color, 20%);
+        //$lighter-gray-color: lighten($light-gray-color, 20%);
+        //
+        //// Font Colors
+        ////
+        //$base-font-color: $medium-gray-color;
+        //$action-color: $primary-color;
+        //
+        //// Border
+        ////
+        //$base-border-color: lighten($lighter-gray-color, 5%);
+        //$base-border: 1px solid $base-border-color;
+        //
+        //// Background Colors
+        ////
+        --base-background-color: #{$base-background-color-darkmode};
+        --base-background-color-shade: #{$base-background-color-shade-darkmode};
+        //$secondary-background-color: tint($base-border-color, 75%);
+    }
+}
