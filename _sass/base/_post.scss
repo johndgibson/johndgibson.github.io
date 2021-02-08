@@ -10,7 +10,7 @@
 
   a {
     text-decoration: none;
-    color: $base-font-color;
+    color: var(--base-font-color);
 
     &:after {
       content: '➝';
@@ -25,7 +25,7 @@
     &:hover,
     &:focus,
     &:active {
-      color: var(--primary-color);
+      color: var(--post-link-focus);
 
       &:after {
         opacity: 1;
@@ -42,7 +42,7 @@
 .post-item {
   padding-bottom: $base-spacing;
   margin-bottom: $base-spacing;
-  border-bottom: 1px solid lighten($base-border-color, 5%);
+  border-bottom: 1px solid var(--post-item-border-color);
 
   .post-title {
     margin-bottom: 10px;

@@ -3,57 +3,63 @@
     //
     --primary-color: #{$primary-color};
     --primary-color-darken: #{$primary-color-darken};
+    --primary-color-shade: #{$primary-color-shade};
     --white-color: #{$white-color};
     --black-color: #{$black-color};
     --navbar-color: #{$primary-color-darken};
-    //$blue-color: #477dca;
-    //$dark-gray-color: lighten($black-color, 10%);
-    //$medium-gray-color: lighten($dark-gray-color, 20%);
-    //$light-gray-color: lighten($medium-gray-color, 20%);
-    //$lighter-gray-color: lighten($light-gray-color, 20%);
+    --medium-gray-color: #{$medium-gray-color};
+    --lighter-gray-color: #{lighten($light-gray-color, 20%)};
     //
     //// Font Colors
     ////
-    //$base-font-color: $medium-gray-color;
-    //$action-color: $primary-color;
+    --base-font-color: #{$medium-gray-color};
+    --action-color: #{$primary-color};
+    --action-color-shade: #{shade($action-color, 25%)};
     //
     //// Border
     ////
-    //$base-border-color: lighten($lighter-gray-color, 5%);
-    //$base-border: 1px solid $base-border-color;
+    --base-border-color: #{lighten($lighter-gray-color, 5%)};
+    --post-item-border-color: #{lighten($base-border-color, 5%)};
     //
     //// Background Colors
     ////
     --base-background-color: #{$base-background-color};
     --base-background-color-shade: #{$base-background-color-shade};
-    //$secondary-background-color: tint($base-border-color, 75%);
+    --secondary-background-color: #{tint($base-border-color, 75%)};
+    //
+    --post-header-color: #{$white-color};
+    --post-link-focus: #{$primary-color};
+    --nav-icon-color: #{$primary-color};
+    --nav-links-color: #{$white-color};
+    --nav-links-focus-color: #ddd;
+    --nav-h2-color: #{$white-color};
+    --aside-background-color: #fcfcfc;
+    --aside-border-color: #{$lighter-gray-color};
 
     @media (prefers-color-scheme: dark) {
         --primary-color: #{$primary-color-darkmode};
         --primary-color-darken: #{$primary-color-darken-darkmode};
+        --primary-color-shade: #{$primary-color-shade-darkmode};
         --white-color: #{$white-color-darkmode};
         --black-color: #{$black-color-darkmode};
         --navbar-color: #{$primary-color-darken-darkmode};
-        //$blue-color: #477dca;
-        //$dark-gray-color: lighten($black-color, 10%);
-        //$medium-gray-color: lighten($dark-gray-color, 20%);
-        //$light-gray-color: lighten($medium-gray-color, 20%);
-        //$lighter-gray-color: lighten($light-gray-color, 20%);
         //
         //// Font Colors
         ////
-        //$base-font-color: $medium-gray-color;
-        //$action-color: $primary-color;
-        //
-        //// Border
-        ////
-        //$base-border-color: lighten($lighter-gray-color, 5%);
-        //$base-border: 1px solid $base-border-color;
-        //
+        --base-font-color: #{$base-font-color-darkmode};
+        --action-color: #{$base-font-color-darkmode};
+        --action-color-shade: #{shade($primary-color-darkmode, 25%)};
         //// Background Colors
         ////
         --base-background-color: #{$base-background-color-darkmode};
         --base-background-color-shade: #{$base-background-color-shade-darkmode};
-        //$secondary-background-color: tint($base-border-color, 75%);
+        //
+        --post-header-color: #{$base-font-color-darkmode};
+        --nav-icon-color: #{$base-font-color-darkmode};
+        --nav-links-color: rgba(var(--nav-links-color), .5);
+        --nav-links-focus-color: #{$white-color};
+        --nav-h2-color: #{$primary-color};
+        --aside-background-color: #{$black-color};
+        --aside-border-color: #{$base-font-color-darkmode};
     }
 }

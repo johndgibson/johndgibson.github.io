@@ -21,7 +21,7 @@
 
   &:hover,
   &:focus {
-    background-color: shade($primary-color, 20%);
+    background-color: var(--primary-color-shade);
     color: var(--white-color);
   }
 

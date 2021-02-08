@@ -22,7 +22,7 @@
     @include center; // mixin inside partials > _mixins.scss
     width: 22px;
     height: 2px;
-    background-color: var(--primary-color);
+    background-color: var(--nav-icon-color);
 
     &::before, &:after {
       /* upper and lower lines of the menu icon */
@@ -145,7 +145,7 @@
     margin-bottom: 1.7em;
     font-size: 1.3rem;
     font-weight: 800;
-    color: darken($primary-color, 5%);
+    color: var(--nav-h2-color);
     text-transform: uppercase;
 
     &::after {
@@ -170,16 +170,16 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      color: rgba(var(--white-color), .5);
+      color: var(--nav-links-color);
       font-weight: $font-weight-light;
       display: inline-block;
 
       &.selected {
-        color: var(--white-color);
+        color: var(--nav-links-focus-color);
       }
 
       .no-touch &:hover {
-        color: var(--white-color);
+        color: var(--nav-links-focus-color);
       }
     }
   }

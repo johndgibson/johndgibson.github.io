@@ -1,5 +1,5 @@
 fieldset {
-  background-color: $secondary-background-color;
+  background-color: var(--secondary-background-color);
   border: $base-border;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
@@ -45,7 +45,7 @@ select[multiple=multiple] {
   }
 
   &:focus {
-    border-color: $action-color;
+    border-color: var(--action-color);
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }

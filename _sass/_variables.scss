@@ -36,6 +36,9 @@ $primary-color-darkmode: #202020;
 $primary-color-darken: darken($primary-color, 6%);
 $primary-color-darken-darkmode: lighten($primary-color-darkmode, 6%);
 
+$primary-color-shade: shade($primary-color, 20%);
+$primary-color-shade-darkmode: shade($primary-color-darkmode, 20%);
+
 $white-color: #fff;
 $black-color: #111;
 $black-color-tint: tint($black-color, 5%);
@@ -53,12 +56,13 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 // Font Colors
 //
 $base-font-color: $medium-gray-color;
+$base-font-color-darkmode: #888;
 $action-color: $primary-color;
 
 // Border
 //
 $base-border-color: lighten($lighter-gray-color, 5%);
-$base-border: 1px solid $base-border-color;
+$base-border: 1px solid var(--base-border-color);
 
 // Background Colors
 //
