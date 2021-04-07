@@ -48,7 +48,7 @@
         ////
         --base-font-color: #{$base-font-color-darkmode};
         --action-color: #{$base-font-color-darkmode};
-        --action-color-shade: #{shade($primary-color-darkmode, 25%)};
+        --action-color-shade: #{lighten($primary-color-darkmode, 25%)};
         //// Background Colors
         ////
         --base-background-color: #{$base-background-color-darkmode};
