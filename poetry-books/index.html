@@ -16,13 +16,15 @@ title: Poetry Books
 
   {% for post in site.categories.books %}
     <article class="post-item container">
-        <header>
-            <h1 class="post-title">
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h1>
-        </header>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <header>
+                <h1 class="post-title">
+                    {{ post.title }}
+                </h1>
+            </header>
 
-        {% include post.html post=post %}
+            {% include post.html post=post %}
+        </a>
 
         <footer>
             <ul class="list-inline italics-style clearfix">

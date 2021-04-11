@@ -68,7 +68,8 @@ p {
   margin: 0 0 $small-spacing;
 }
 
-a {
+a,
+.link {
   color: var(--action-color);
   text-decoration: underline;
   transition: color $base-duration $base-timing;
@@ -76,7 +77,6 @@ a {
   &:active,
   &:focus,
   &:hover {
-    text-decoration: none;
     color: var(--action-color-shade);
   }
 }

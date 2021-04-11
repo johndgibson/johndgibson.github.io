@@ -1,18 +1,23 @@
 
 .post-header {
   margin-bottom: $base-spacing;
-  padding: 5em 2em;
+  padding-top: $base-spacing;
 }
 
-.post-title,
-.post-meta {
-  font-weight: $font-weight-light;
+.center {
+    text-align: center;
+}
 
-  a {
+.post-content {
+    text-align: left;
+    display: inline-block;
+}
+
+a.post-link {
     text-decoration: none;
     color: var(--base-font-color);
 
-    &:after {
+    h1:after {
       content: '➝';
       display: inline-block;
       left: -5px;
@@ -25,14 +30,20 @@
     &:hover,
     &:focus,
     &:active {
-      color: var(--post-link-focus);
+        h1 {
+            color: var(--post-link-focus);
 
-      &:after {
-        opacity: 1;
-        left: 10px;
-      }
+            &:after {
+                opacity: 1;
+                left: 10px;
+            }
+        }
     }
-  }
+}
+
+.post-title,
+.post-meta {
+  font-weight: $font-weight-light;
 }
 
 .post-meta {
